@@ -24,35 +24,6 @@
 
 <body>
     <header class="bg-section" style="background-image:url('./images/background-wega.jpg')">
-        <!-- <nav class="navbar navbar-expand-lg navbar-dark primary-color">
-            <a class="navbar-brand" href="#"><img class="icon-nav" src="./images/SVG/logo-white.svg">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">ÜBER UNS <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">KRITERIEN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Strategie">STRATEGIE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">TEAM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">TEAM</a>
-                    </li>
-                </ul>
-            </div>
-        </nav> -->
-
-
         <div class="page-container">
             <div class="navigation">
                 <nav class="navbar-wega">
@@ -64,7 +35,7 @@
                     </div>
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#About">About</a>
+                            <a class="nav-link active" href="#About">Über uns</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Strategie">Strategie</a>
@@ -106,19 +77,23 @@
                             <div class="modal-body">
                                 <ul class="navbar-mobile">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#About"  onclick="$('#myModal').modal('hide')">About</a>
+                                        <a class="nav-link" href="#About"
+                                            onclick="$('#myModal').modal('hide')">Über uns</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#Strategie" onclick="$('#myModal').modal('hide')">Strategie</a>
+                                        <a class="nav-link" href="#Strategie"
+                                            onclick="$('#myModal').modal('hide')">Strategie</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#Kriterien" onclick="$('#myModal').modal('hide')">Kriterien</a>
+                                        <a class="nav-link" href="#Kriterien"
+                                            onclick="$('#myModal').modal('hide')">Kriterien</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link " href="#Team" onclick="$('#myModal').modal('hide')">Team</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link " href="#Kontakt" onclick="$('#myModal').modal('hide')">Kontakt</a>
+                                        <a class="nav-link " href="#Kontakt"
+                                            onclick="$('#myModal').modal('hide')">Kontakt</a>
                                     </li>
                                 </ul>
                             </div>
@@ -240,7 +215,7 @@
             </ul>
         </div>
     </section>
-    <section class="bg-header--2" id="Kriterien" style="background-image:url('./images/background-wega-kriterien.jpg')">
+    <section class="bg-header--2" id="Kriterien" style="background-image:url('./images/background-wega-kriterien.jpg')" style="min-height: auto;"">
         <div class="page-container">
             <div class="title-container">
                 <p class="label-title">kriterien</p>
@@ -551,8 +526,33 @@
             </div>
         </div>
     </section>
-    <section class="bg-dark">
-        <div class="page-container">
+    <section id="Team2">
+        <div class="team-bg" style="background-image:url('./images/background-team.jpg')">
+        </div>
+        <div class="bg-lighter">
+            <div class="page-container" style="min-height: auto;">
+                <div class="title-container">
+                    <p class="label-title">Team</p>
+                    <h3 class="title">München</h3>
+                </div>
+
+                <div class="content-block--3 text--darkest">
+                    <div class="col-12">
+                        <p>WEGA ist das Family Office der Familie Wendeln, einer norddeutschen Familie deren
+                            unternehmerischen Wurzeln im industriellen Bäckerei-geschäft in Deutschland liegen und
+                            bis
+                            in
+                            das Jahr 1919 zurückreichen. Das Family Office wurde nach dem Verkauf des
+                            Familienunternehmens
+                            im Jahr 2000 gegründet. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-darkest">
+        <div class="page-container" style="min-height: auto;">
             <div class="title-container--light">
                 <h3 class="title">Management</h3>
             </div>
@@ -560,35 +560,123 @@
                 <div class="container-team">
                     <img class="avatar" src="./images/prof-avatar-1.jpg">
                     <div class="avatar-info">
-                        <p>Bernd Wendeln
+                        <h6>Bernd Wendeln</h6>
+                        <p>
                             Beiratsvorsitzender</p>
                     </div>
                 </div>
                 <div class="container-team">
                     <img class="avatar" src="./images/profile-avatar-2.jpg">
                     <div class="avatar-info">
-                        <p>Alexander Wendeln
+                        <h6>Alexander Wendeln</h6>
+                        <p>
                             Beirat</p>
                     </div>
                 </div>
                 <div class="container-team">
                     <img class="avatar" src="./images/profile-avatar-3.jpg">
                     <div class="avatar-info">
-                        <p>Matthias Kray
+                        <h6>Matthias Kray</h6>
+                        <p>
                             Geschäftsführer | CIO</p>
                     </div>
                 </div>
                 <div class="container-team">
                     <img class="avatar" src="./images/profile-avatar-4.jpg">
                     <div class="avatar-info">
-                        <p>Dr. Bodo Coldewey
+                        <h6>Dr. Bodo Coldewey</h6>
+                        <p>
                             Geschäftsführer | CEO</p>
                     </div>
                 </div>
 
             </div>
         </div>
+    </section>
+    <section class="bg-darkest">
+        <div class="page-container" style="min-height: auto;">
+            <div class="title-container--light">
+                <h3 class="title">Kontakt</h3>
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="contact-info">
+                            <h6>WEGA Invest GmbH
+                            </h6>
+                            <p>Sporerstraße 3<br>
+                                80333 München
+                                </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <form>
+                            <div class="form-group ">
+                                <textarea class="form-control form-contact" id="exampleFormControlTextarea1" rows="3" placeholder="Ihre Anfrage"></textarea>
+                              </div>
+                              <button type="button" class="btn btn-lightest">Senden</button>
+                        </form>
+                    </div>   
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="team-bg " style="background-image:url('./images/bg-footer.jpg');background-size: cover;">
+        </div>
+        <footer class="bg-darkest">
+            <div class="page-container  mt-0" style="min-height: auto;">
+                <div class="footer-container">
+                    <div class="footer-copyrights mt-2">
+                        <p>© 2020 WEGA Invest GmbH</p>
+                        <img class="footer-img"src="./images/Logo_lighter.svg">
 
+                    </div>
+                    <div class="footer-links mt-2">
+                        <div class="vr"></div>
+                        <ul class="link-list">
+                            <li class="list-item">
+                                <a class="link-footer"href="#">Contac</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#">Imprint</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#">Privacy Policy</a>
+                            </li>
+                            <li class="list-item mt-3">
+                                <a class="link-footer"href="#">WENVEST Capital</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav mt-2">
+                        <div class="vr"></div>
+                        <ul class="link-list">
+                            <li class="list-item">
+                                <a class="link-footer"href="#About">Über uns
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#Kriterien">Kriterien
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#Strategie">Strategie</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#Team">Team</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#Kontakt">Kontakt</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-actions mt-2">
+                        <button type="button" class="btn btn-lightest">LOGIN</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

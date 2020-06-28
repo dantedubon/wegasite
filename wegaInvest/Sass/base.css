@@ -217,19 +217,12 @@ body {
   background-color: #fff;
   background-size: cover; }
 
-.bg-header--3 {
-  background: linear-gradient(0deg, rgba(20, 11, 16, 0.5), rgba(202, 192, 203, 0.5)), url("../../images/bg-3.jpg");
+.bg-section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh; }
 
-.bg-header--2 {
-  background: linear-gradient(0deg, rgba(20, 11, 16, 0.5), rgba(202, 192, 203, 0.5)), url("../../images/bg-section-2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh; }
-
-.bg-dark {
+.bg-darkest {
   background-color: #22201F;
   background-size: cover; }
 
@@ -255,7 +248,7 @@ body {
   flex-wrap: nowrap;
   width: 66%;
   margin-left: auto;
-  margin-top: 20px;
+  margin-top: auto;
   margin-bottom: 0px;
   font-size: 16px;
   color: white; }
@@ -317,11 +310,122 @@ body {
     .list-team .container-team .avatar-info {
       font-size: 16px;
       color: white;
-      font-family: 'Panton-Light';
+      font-family: 'Panton-Regular';
       margin-top: 20px; }
+      .list-team .container-team .avatar-info h6 {
+        font-family: 'Panton-Bold'; }
 
 .label-title {
   font-family: 'Panton-Bold';
   text-transform: inherit; }
+
+.text--darkest {
+  color: #685D5B;
+  font-size: inherit;
+  font-family: inherit; }
+
+.team-bg {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-height: 500px;
+  min-height: 300px; }
+
+#Team {
+  display: block; }
+  @media screen and (max-width: 575.98px) {
+    #Team {
+      display: none; } }
+  @media screen and (min-width: 576px) and (max-width: 767.99px) {
+    #Team {
+      display: none; } }
+  @media screen and (min-width: 768px) {
+    #Team {
+      display: block; } }
+
+#Team2 {
+  display: block; }
+  @media screen and (max-width: 575.98px) {
+    #Team2 {
+      display: block; } }
+  @media screen and (min-width: 576px) and (max-width: 767.99px) {
+    #Team2 {
+      display: block; } }
+  @media screen and (min-width: 768px) {
+    #Team2 {
+      display: none; } }
+
+.contact-info {
+  color: white;
+  font-family: 'Panton-Regular';
+  font-size: 16px; }
+  .contact-info h6 {
+    font-family: 'Panton-Bold'; }
+
+.form-contact {
+  background-color: transparent;
+  border-radius: 0px; }
+
+.btn-lightest {
+  color: #685D5B;
+  background-color: white;
+  border-color: white;
+  font-family: 'Panton-Bold';
+  border-radius: 0px; }
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Panton-Light';
+  justify-content: space-between; }
+  .footer-container .footer-copyrights {
+    flex-direction: column;
+    font-family: 'Panton-Light'; }
+    .footer-container .footer-copyrights p {
+      font-family: 'Panton-Light';
+      color: white; }
+    .footer-container .footer-copyrights .footer-img {
+      margin-top: 66px;
+      width: 40px; }
+  .footer-container .footer-nav {
+    display: flex;
+    flex-direction: row; }
+    .footer-container .footer-nav .vr {
+      height: auto;
+      border-left: 1px solid white; }
+      @media screen and (max-width: 575.98px) {
+        .footer-container .footer-nav .vr {
+          display: none; } }
+      @media screen and (min-width: 576px) and (max-width: 767.99px) {
+        .footer-container .footer-nav .vr {
+          display: none; } }
+    .footer-container .footer-nav .link-list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column; }
+      .footer-container .footer-nav .link-list .list-item .link-footer {
+        font-family: 'Panton-Light';
+        color: white;
+        padding: 10px 20px; }
+  .footer-container .footer-links {
+    display: flex;
+    flex-direction: row; }
+    .footer-container .footer-links .vr {
+      height: auto;
+      border-left: 1px solid white; }
+      @media screen and (max-width: 575.98px) {
+        .footer-container .footer-links .vr {
+          display: none; } }
+      @media screen and (min-width: 576px) and (max-width: 767.99px) {
+        .footer-container .footer-links .vr {
+          display: none; } }
+    .footer-container .footer-links .link-list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column; }
+      .footer-container .footer-links .link-list .list-item .link-footer {
+        font-family: 'Panton-Light';
+        color: white;
+        padding: 10px 20px; }
 
 /*# sourceMappingURL=maps/base.css.map */
